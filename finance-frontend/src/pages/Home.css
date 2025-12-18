@@ -1,0 +1,53 @@
+/* --- Global --- */
+body {
+    background-color: var(--ion-color-light);
+}
+
+/* --- Dashboard Cards --- */
+.dashboard-card {
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.card-title ion-icon {
+    margin-right: 8px;
+    color: var(--ion-color-primary);
+}
+
+/* --- Main Summary Card --- */
+.main-summary-card {
+    border-radius: 16px;
+    color: white;
+}
+
+.main-summary-value {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+/* --- Upload Card --- */
+.upload-card {
+    background-color: var(--ion-color-light-shade);
+    border: 2px dashed var(--ion-color-medium);
+}
+
+.upload-icon {
+    font-size: 4rem;
+    color: var(--ion-color-primary);
+}
+
+/* --- Custom Button for Upload --- */
+ion-button[for="file-upload"] {
+    --border-color: var(--ion-color-primary);
+    --color: var(--ion-color-primary);
+    margin-top: 15px;
+}
